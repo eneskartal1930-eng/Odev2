@@ -4,12 +4,12 @@ n = input('Lutfen 2''den buyuk bir tam sayi giriniz: ');
 if n <= 2
     disp('Uyari: Lutfen sarta uygun olarak 2''den buyuk bir tam sayi giriniz!');
 else
-    ilk_bolen = -1; % Baslangic degeri, eger degismezse sayi asaldir.
+    ilk_bolen = -1; 
     
     for i = 2:(n-1)
         if mod(n, i) == 0
             ilk_bolen = i;
-            break; % Ilk bolen bulundugunda donguden cikilir
+            break; 
         end
     end
 
